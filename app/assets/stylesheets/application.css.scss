@@ -20,3 +20,15 @@
 h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
 }
+
+body, .navbar {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e839a+0,7edfe8+100 */
+    background: -moz-linear-gradient(left, #1e839a 0%, #7edfe8 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #1e839a 0%,#7edfe8 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #1e839a 0%,#7edfe8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e839a', endColorstr='#7edfe8',GradientType=1 ); /* IE6-9 */
+}
+
+.navbar {
+    border: none;
+}
