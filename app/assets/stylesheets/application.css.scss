@@ -21,7 +21,7 @@ h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
 }
 
-body, .navbar {
+.navbar, .home-callout {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e839a+0,7edfe8+100 */
     background: -moz-linear-gradient(left, #1e839a 0%, #7edfe8 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(left, #1e839a 0%,#7edfe8 100%); /* Chrome10-25,Safari5.1-6 */
@@ -29,6 +29,13 @@ body, .navbar {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e839a', endColorstr='#7edfe8',GradientType=1 ); /* IE6-9 */
 }
 
-.navbar {
+.navbar{
     border: none;
+}
+
+.home-callout {
+    margin-top: -20px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    color: white;
 }
