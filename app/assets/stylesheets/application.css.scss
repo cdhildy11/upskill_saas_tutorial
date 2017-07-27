@@ -16,11 +16,12 @@
  
  @import 'bootstrap-sprockets';
  @import 'bootstrap';
-
+//Typography Styles
 h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
 }
 
+//Background Gradient
 .navbar, .home-callout {
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e839a+0,7edfe8+100 */
     background: -moz-linear-gradient(left, #1e839a 0%, #7edfe8 100%); /* FF3.6-15 */
@@ -29,28 +30,22 @@ h1, h2, h3 {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e839a', endColorstr='#7edfe8',GradientType=1 ); /* IE6-9 */
 }
 
+//Nav Styles
 .navbar {
     border: none;
 }
 
-.navbar-default .navbar-brand {
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
     color: white;
+    &:hover {
+        color: white;
+        opacity: 0.75;
+    }
 }
 
-.navbar-default .navbar-nav > li > a{
-    color: white;
-}
 
-.navbar-default .navbar-nav > li > a:hover{
-    color: white;
-    opacity: 0.75;
-}
-
-.navbar-default .navbar-brand:hover {
-    color: white;
-    opacity: 0.75;
-}
-
+// Home page styles
 .home-callout {
     margin-top: -20px;
     padding-top: 50px;
