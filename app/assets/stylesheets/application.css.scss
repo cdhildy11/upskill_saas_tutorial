@@ -29,8 +29,26 @@ h1, h2, h3 {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e839a', endColorstr='#7edfe8',GradientType=1 ); /* IE6-9 */
 }
 
-.navbar{
+.navbar {
     border: none;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a{
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+    color: white;
+    opacity: 0.75;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: white;
+    opacity: 0.75;
 }
 
 .home-callout {
