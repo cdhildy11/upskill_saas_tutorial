@@ -16,10 +16,12 @@
 //= require turbolinks
 //= require_tree .
 
-/* $(window).scroll(function() {
+/*$(window).scroll(function() {
   if ($(document).scrollTop() > 50) {
     $('nav').addClass('shrink');
+    $('.navbar-default').css('background-color', 'black');
   } else {
     $('nav').removeClass('shrink');
+    $('.navbar-default').css('background-color', 'red');
   }
 }); */
