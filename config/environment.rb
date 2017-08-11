@@ -3,3 +3,13 @@ require_relative 'application'
 
 # Initialize the Rails application.
 Rails.application.initialize!
+
+ActionMailer::Base.smtp_settings = {
+    :part           => ENV['MAILGUN_SMTP_PORT'],
+    :address        => ENV['MAILGUN_SMTP_SERVER'],
+    :user_address   => ENV['MAILGUN_SMTP_LOGIN'],
+    :password       => ENV['MAILGUN_SMTP_PASSWORD'],
+    :domain         => 'young-earth-97152.herokuapp.com',
+    :authentication => :plain,
+}
+ActionMailer::Base.delivery_method = :smtp
